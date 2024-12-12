@@ -3,6 +3,10 @@ package prototype;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This is an abstract prototype
+ * Deep copy
+ */
 public class NetworkConnection implements Cloneable{
     private String ipAddress;
     private String importantData;
