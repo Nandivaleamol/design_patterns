@@ -8,12 +8,14 @@ public class Main {
 
         networkConnection.loadVeryImportantData();
 
-        System.out.println(networkConnection);
-
         NetworkConnection clonedNetworkConnection1 = networkConnection.clone();
-        System.out.println(clonedNetworkConnection1);
-
         NetworkConnection clonedNetworkConnection2 = networkConnection.clone();
+
+
+        networkConnection.getDomains().remove(0);
+
+        System.out.println(networkConnection);
+        System.out.println(clonedNetworkConnection1);
         System.out.println(clonedNetworkConnection2);
     }
 }
