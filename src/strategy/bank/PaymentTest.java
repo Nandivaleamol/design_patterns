@@ -1,4 +1,4 @@
-package strategy;
+package strategy.bank;
 
 public class PaymentTest {
     public static void main(String[] args) {

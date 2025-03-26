@@ -1,4 +1,4 @@
-package strategy;
+package strategy.bank;
 
 public class PayPalPayment implements PaymentStrategy{
     @Override
